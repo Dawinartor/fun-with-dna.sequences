@@ -1,5 +1,5 @@
 from tokenize import String
-import colour_switch
+from colour_switch import letters_to_colours
 
 
 class DNA():
@@ -10,4 +10,4 @@ class DNA():
         # iterate through sequenz
         for letter in self.sequence:
             # for each character check which colour to add
-            print(colour_switch.letters_to_colours(letter), end='')
+            print(letters_to_colours(letter), end='')
