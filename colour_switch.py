@@ -1,5 +1,5 @@
 from colorama import Fore, init
-init()
+init() # Necessary for Windows OS
 
 def A():
     return Fore.RED + "A"
